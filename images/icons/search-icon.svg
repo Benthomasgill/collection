@@ -1,0 +1,7 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="search">
+        <rect width="32" height="32" fill="white"/>
+        <line id="Line 1" x1="1.58579" y1="30.5858" x2="13.5858" y2="18.5858" stroke="black" stroke-width="4"/>
+        <circle id="Ellipse 1" cx="21" cy="11" r="9" stroke="black" stroke-width="4"/>
+    </g>
+</svg>

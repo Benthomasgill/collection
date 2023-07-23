@@ -1,0 +1,14 @@
+.latest-blog {
+    list-style-type: none;
+    padding-bottom: 20px;
+        a {
+            display: flex;
+            img {
+                max-width: 350px;
+            }
+        }
+    .pos {
+        background-color: #f0f0f0;
+        padding: 120px;
+    }
+}

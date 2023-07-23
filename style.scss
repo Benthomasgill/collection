@@ -1,0 +1,15 @@
+/*
+Theme Name: Base Theme
+Version: 1.0
+Theme URI: https://basetheme.com.au
+Author: Ben Thomas-Gill
+Author URI: benthomasgill.com.au
+Description: First attempt at building a vanilla theme from the Twenty Twenty base theme
+*/
+
+@import 'sass/mixins';
+@import 'sass/reset';
+@import 'sass/nav';
+@import 'sass/common';
+@import 'sass/blog';
+@import 'sass/footer';

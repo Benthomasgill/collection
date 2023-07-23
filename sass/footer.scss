@@ -1,0 +1,25 @@
+footer {
+    background-color: #333;
+    padding: 50px 0px;
+    .footer-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0px 40px;
+        li {
+            list-style-type: none;
+            color: #fff;
+            font-size: 0.9em;
+            line-height: 25px;
+        }
+        p {
+            color: #fff;
+            font-size: 0.9em;
+            line-height: 25px;
+        }
+    }
+    .site-info {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+}
