@@ -381,7 +381,19 @@ function disable_emojis_tinymce( $plugins ) {
 
 // require_once('functions/post-types.php');
 
-
+function create_post_type() {
+    register_post_type( 'sms_games',
+    array(
+        'labels' => array(
+            'name' => __( 'sms_games' ),
+            'singular_name' => __( 'sms_game' )
+        ),
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => array('slug' => 'sms_games'),
+    )
+);
+}
 
 /* Primary Contact Details */
 function primary_details() {

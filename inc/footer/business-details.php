@@ -1,6 +1,6 @@
 <!--/ Start Business Details /-->
 <div class="business">
-<strong itemprop="name" content="<?php echo primary_details()['location']; ?>" />
+
 
     <meta itemprop="priceRange" content="Please contact us for details" />
     <meta itemprop="currenciesAccepted" content="AU" />
