@@ -6,8 +6,7 @@
 
         <div class="header-navigation-wrapper">
 
-            <nav class="primary-menu-wrapper desktop-display" aria-label="Menu">
-                <ul> 
+            <nav class="primary-menu-wrapper desktop-display" aria-label="Menu"> 
                     <?php
                         wp_nav_menu( array(
                         'theme_location' => 'primary', 
@@ -17,7 +16,6 @@
                         'container'     => ''
                         ) );
                     ?>
-                </ul>
             </nav>
 
 

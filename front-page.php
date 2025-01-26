@@ -6,10 +6,10 @@
 get_header();
 ?>
 
-<img src="https://placehold.co/1600x700">
+<?php get_template_part('inc/hero-image'); ?>
 
 <div class="container">
-    <?php get_template_part('inc/hero-image'); ?>
+   
     
     
  

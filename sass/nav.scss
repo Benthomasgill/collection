@@ -11,6 +11,36 @@
     }
 }
 
+#menu-primary-navigation {
+    .sub-menu::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: #f3f3f3;
+        transform: rotate(45deg);
+        position: absolute;
+        top: -7px;
+        left: 20px;
+        border-radius: 4px;
+    }
+    .sub-menu {
+        display: none;
+    }
+    li:hover {
+        .sub-menu {
+            display: block;
+            position: absolute;
+            background-color: #f3f3f3;
+            top:80px;
+            li {
+                padding: 10px;
+                border-bottom: dashed 1px rgb(180 162 162 / 60%);
+            }
+        }
+    }
+}
+
 .site-header {
     background: #fff;
     position: relative;
@@ -31,21 +61,17 @@
 .primary-menu-wrapper {
     width: 90%;
     ul {
-        .menu {
-            ul {
-            display: flex;
-            list-style: none;
-                li {
-                    max-width: 200px;
-                    padding: 30px 10px;
-                    a {
-                        color: #333;
-                        text-decoration: none;
-                    }
+        display: flex;
+        list-style: none;
+            li {
+                padding: 30px 10px;
+                a {
+                    color: #333;
+                    text-decoration: none;
+                    font-weight: 700;
                 }
             }
         }
-    }
 }
 
 
@@ -104,20 +130,24 @@
     top: 0px;
 }
 
-.nav-container {
-    max-width: 1200px;
-    display: block;
-    margin: auto;
-    position: fixed;
-    min-width: 100%;
-    .header-container {
-        width: 100%;
+header {
+    z-index: 9;
+    .nav-container {
         max-width: 1200px;
+        display: block;
         margin: auto;
-        display: flex;
-        .site-logo-mobile {
-            max-width: 150px;
-            padding: 8px;
+        position: fixed;
+        min-width: 100%;
+        background-color: #fff;
+        .header-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            .site-logo-mobile {
+                max-width: 150px;
+                padding: 8px;
+            }
         }
     }
 }
